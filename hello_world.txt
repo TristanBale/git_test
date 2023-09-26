@@ -1,1 +1,8 @@
-test test test
+this file contains git commands from this lesson 
+
+git status -- shows status (red if modified but not stage, green means staged, nth means committed)
+git add -- adds file to the staging area (do 'git add .' to add all files in current directory to staging area)
+git commit -m "comment" -- commits our changes and adds comment for the commit
+git log -- to see log of modifications and commits
+git push -- to upload work to the Github respository
+
