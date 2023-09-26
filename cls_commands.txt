@@ -1,0 +1,111 @@
+This file contains CLS commands 
+
+CLS commands
+
+ 
+
+Open VSC: code
+
+Open Chrome: google-chrome &
+
+ 
+
+pwd : print working directory i.e., where we are
+
+ls :  prints a listing of files and directories in our current directory
+
+ls [path] : ls for a specific file or directory
+
+absolute path: location from the root of the file system
+
+relative path: location from the current location
+
+ls -- help
+
+man -- ls (manual)
+
+cd : change directory (folder), like doubling clicking (typing cd with no argument brings you back to your home dir)
+
+cd .. : to move up one directory level
+
+cd - : to move back
+
+. : on its own means current directory
+
+.. : means the directory directly above the current one
+
+-F : to show all the files and directory in a directory
+
+-h : to make it human readable
+
+-a : to show all
+
+-r : to reverse
+
+-t : to sort by time
+
+~ : shortform for home/tristanbale
+
+/ : root directory
+
+ 
+
+mkdir : to make a new directory
+
+mkdir -p : to make a directory with nested subdirectories (eg: mkdir -p A/B) makes B in A
+
+nano draft.txt: to make a text document called draft.txt using nano. Use ctrl+o to save, and ctrl+x to exit
+
+touch <filename> : to create an empty txt document
+
+echo : to print the text onto the terminal
+
+rm <filename> : to remove a file
+
+mv <filenameA> <filenameB> : (mv for move) renames A to B
+
+cp <old> <new> : to copy a file
+
+cp -r : to backup an entire directory
+
+rm : to remove files (add an -i if we want a prompt for anything)
+
+rm -r : to remove directories ( do rm -r -i )
+
+wc <filename> : to give number of lines, words and characters in file (-l for lines, -m for characters, -w for words)
+
+cat <filename> : to concatenate, which prints out the contents of files, but this prints it in the terminal, use less too
+
+less <filename> : displays a screenful of the file. Use spacebar to go forward a page, back with b, and q to quit
+
+sort: to sort in alphabetical order, add -n to sort numerically
+
+> : to redirect command output into a file instead of printing in the terminal
+
+>> : to append text to a file, the earlier > will just rewrite the entire file with the new text
+
+head : to get first few lines of file (eg head -n 1 <filename> will give the first line in the file)
+
+tail : to get the last few lines first
+
+ 
+
+piping
+
+<command> | <command> : to tell the shell to use the first output command as the input of the second command
+
+cut -d , -f 2 <filename> : to remove certain sections. -d removes commas to remove, -f 2 specifies we want to remove the 2nd column
+
+uniq : filters out adjacent matching lines. But only adjacent, so to remove duplicates, must sort | uniq, add a -c to give a count for number of times a line appears
+
+ 
+
+ 
+
+ 
+
+wildcards
+
+* : means any character (eg : *.txt means all txt files)
+
+? : means exactly one character
