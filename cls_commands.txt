@@ -63,7 +63,7 @@ echo : to print the text onto the terminal
 rm <filename> : to remove a file
 
 mv <filenameA> <filenameB> : (mv for move) renames A to B
-mv <failename> dir1 : to move file from current dir to new dir1
+mv <failename> /dir1 : to move file from current dir to new dir1
 
 cp <old> <new> : to copy a file
 
