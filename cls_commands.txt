@@ -65,6 +65,7 @@ rm <filename> : to remove a file
 mv <filenameA> <filenameB> : (mv for move) renames A to B
 mv <failename> /dir1 : to move file from current dir to new dir1
 mv <filename> ./dir : to move file from current dir to a dir in the current dir, note we added the . in front the / as the . means where we are
+sudo mv -f -i <filename> <destination> : this forces the move to destination, but the i prompts your permission and pw. for when permission is denied for earlier moves
 
 cp <old> <new> : to copy a file
 cp -r : to backup an entire directory
