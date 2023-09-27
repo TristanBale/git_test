@@ -63,18 +63,12 @@ echo : to print the text onto the terminal
 rm <filename> : to remove a file
 
 mv <filenameA> <filenameB> : (mv for move) renames A to B
-<<<<<<< HEAD
 mv <failename> /dir1 : to move file from current dir to new dir1
-=======
-mv <filename> /dir : to move file from current dir to another dir
->>>>>>> 31486911ab3cc115d4e4cf79cb256c014b4fd5c8
 
 cp <old> <new> : to copy a file
-
 cp -r : to backup an entire directory
 
 rm : to remove files (add an -i if we want a prompt for anything)
-
 rm -r : to remove directories ( do rm -r -i )
 
 wc <filename> : to give number of lines, words and characters in file (-l for lines, -m for characters, -w for words)
